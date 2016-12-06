@@ -1,0 +1,23 @@
+{
+  "name": "instance-proxy",
+  "version": "1.0.0",
+  "description": "proxy for gamma instance ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hypergamma/instance-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hypergamma/instance-proxy/issues"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "http-proxy": "^1.16.1",
+    "redis": "^2.6.3"
+  }
+}
